@@ -5,12 +5,12 @@ void main ()
     printf ("Enter an integer : ");
     scanf ("%d",&x);
     if (x<0)
-        printf ("Error!!! Factorial of negative number doesn't exist");
+        printf ("Error!!! Factorial of negative number doesn't exist.");
     else if (x==0)
         printf ("Factorial = %d",fact);
     else
     {
-        while (i<x)
+        while (i<=x)
         {
             fact*=i;
             i++;

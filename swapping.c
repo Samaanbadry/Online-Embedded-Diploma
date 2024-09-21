@@ -9,7 +9,7 @@ int main ()
     temp=a;
     a=b;
     b=temp;
-    printf ("After swapping, value of a = %f \n",a);
-    printf ("After swapping, value of b = %f ",b);
+    printf ("After swapping, value of a = %.2f \n",a);
+    printf ("After swapping, value of b = %.1f ",b);
     return 0;
 }

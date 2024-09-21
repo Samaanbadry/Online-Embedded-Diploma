@@ -10,14 +10,14 @@ void main ()
     switch (x)
     {
         case '+' : { 
-            printf ("%.1f + %.1f = %.1f",y , z , y+z); } break;
+            printf ("%.1f + %.1f = %.1f",y , z , y+z); break; } 
         case '-' : { 
-            printf ("%.1f - %.1f = %.1f",y , z , y-z); } break;
+            printf ("%.1f - %.1f = %.1f",y , z , y-z); break; } 
          case '*' : { 
-            printf ("%.1f * %.1f = %.1f",y , z , y*z); } break;
+            printf ("%.1f * %.1f = %.1f",y , z , y*z); break; } 
         case '/' : { 
-            printf ("%.1f / %.1f = %.1f",y , z , y/z); } break;
-     default : 
-            printf ("Error! operate isn't correct");  break;
+            printf ("%.1f / %.1f = %.1f",y , z , y/z); break; } 
+     default : {
+            printf ("Error! operate isn't correct"); break;   }
     }
 }

@@ -10,5 +10,5 @@ int main()
     b=a-b;
     a=a-b;
     printf ("After swapping, value of a = %.2f \n",a);
-    printf ("After swapping, value of b = %.2f",b);
+    printf ("After swapping, value of b = %.1f",b);
 }
